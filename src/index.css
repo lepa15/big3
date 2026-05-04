@@ -1,0 +1,90 @@
+@font-face {
+    font-family: "Avenir";
+    src: url('@/shared/assets/fonts/Avenir Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Avenir";
+    src: url('@/shared/assets/fonts/Avenir Book.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Avenir";
+    src: url('@/shared/assets/fonts/Avenir Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url('@/shared/assets/fonts/Montserrat-Medium.ttf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url('@/shared/assets/fonts/Montserrat-SemiBold.ttf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SF Pro Display";
+    src: url('@/shared/assets/fonts/SF-Pro-Display-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SF Pro Display";
+    src: url('@/shared/assets/fonts/SF-Pro-Display-Semibold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Orbitron";
+    src: url('@/shared/assets/fonts/Orbitron-Bold.ttf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+:root {
+    --ui---red: #e4163a;
+    --ui---lightest-red: #ff768e;
+    --ui---white: #fff;
+    --ui---lightest-grey: #d1d1d1;
+    --ui---grey: #707070;
+    --ui---dark-grey: #303030;
+    --ui---blue: #344472;
+    --ui---light-grey: #9c9c9c;
+    --ui---lightest-grey1: #f6f6f6;
+    --ui---light-red: #ff5761;
+    --ui---dark-red: #c60e2e;
+    --ui---yellow: #d9ad3a;
+    --ui---light-blue: #f5fbff;
+
+    --font-family: "Avenir", sans-serif;
+    --second-family: "SF Pro Display", sans-serif;
+    --third-family: "Montserrat", sans-serif;
+    --font3: "Orbitron", sans-serif;
+}
+
+#root {
+    font-family: var(--font-family), sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+
+input {
+    padding: 0;
+    border: none;
+}
+
